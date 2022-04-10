@@ -1,0 +1,38 @@
+{
+  "name": "webtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon --inspect src/app.js",
+    "watch": "node-sass -w src/resources/scss/app.scss src/public/css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hand3007/webtest.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "ha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hand3007/webtest/issues"
+  },
+  "homepage": "https://github.com/hand3007/webtest#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.2",
+    "facebook-chat-api": "^1.8.0",
+    "get-facebook-id": "^1.1.0",
+    "mongoose": "^6.2.4",
+    "node-sass": "^7.0.1",
+    "puppeteer": "^13.5.0",
+    "puppeteer-autoscroll-down": "^1.1.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
